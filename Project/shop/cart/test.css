@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    width: 100%;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+.u-section-1 {
+    background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+    min-height: 746px;
+}
+
+.u-section-1 .u-group-1 {
+    min-height: 174px;
+    background-image: none;
+    width: 901px;
+    margin: 68px auto 0 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+    padding: 25px 30px;
+}
+
+.u-section-1 .u-text-1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: none;
+    margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+    margin: 13px 0 0;
+}
+
+.u-section-1 .u-form-1 {
+    height: 425px;
+    margin: 0 285px 60px 0;
+}
+
+.u-section-1 .u-form-group-3 {
+    margin-left: 0;
+}
+
+.u-section-1 .u-form-group-4 {
+    margin-left: 0;
+}
+
+.u-section-1 .u-form-group-5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.u-section-1 .u-btn-1 {
+    border-style: solid;
+}
+
+@media (max-width: 1199px) {
+    .u-section-1 .u-form-1 {
+        width: 855px;
+        margin-right: 85px;
+    }
+
+    .u-section-1 .u-form-group-3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .u-section-1 .u-form-group-4 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-1 .u-group-1 {
+        width: 720px;
+    }
+
+    .u-section-1 .u-form-1 {
+        width: 720px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-1 .u-group-1 {
+        width: 540px;
+    }
+
+    .u-section-1 .u-container-layout-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-1 .u-form-1 {
+        width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-1 .u-group-1 {
+        width: 340px;
+    }
+
+    .u-section-1 .u-text-1 {
+        font-size: 2.25rem;
+        margin-top: 17px;
+    }
+
+    .u-section-1 .u-form-1 {
+        width: 340px;
+    }
+
+    .u-section-1 .u-form-group-1 {
+        width: 100%;
+    }
+
+    .u-section-1 .u-form-group-2 {
+        width: 100%;
+    }
+
+    .u-section-1 .u-form-group-3 {
+        width: 100%;
+    }
+
+    .u-section-1 .u-form-group-4 {
+        width: 100%;
+    }
+
+    .u-section-1 .u-form-group-5 {
+        width: 100%;
+    }
+
+    .u-section-1 .u-form-group-6 {
+        width: 100%;
+    }
+}

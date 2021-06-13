@@ -1,0 +1,196 @@
+
+.contentman {
+
+    margin: 50px 25%;
+    width: auto;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.contentman .item {
+    height: auto;
+    width: auto;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+}
+.contentman .item img {
+    width: 200px;
+    height: 200px;
+}
+
+.contentwoman {
+
+    margin: 50px 25%;
+    width: auto;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.contentwoman .item {
+    height: auto;
+    width: auto;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+}
+.contentwoman .item img {
+    width: 200px;
+    height: 200px;
+
+}
+.badge {
+     padding-left: 9px;
+     padding-right: 9px;
+     -webkit-border-radius: 9px;
+     -moz-border-radius: 9px;
+     border-radius: 9px;
+ }
+.cart {
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+.cart__icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    filter: invert(100%);
+}
+#count {
+    font-size: 20px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
+}
+
+
+
+
+* {
+    font-size: 14px;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+.contact_section {
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+.contact_info p {
+    line-height: 28px;
+    display: block;
+    font-size: 14px;
+    color: #7b7b7b;
+    margin: 0 0 30px;
+}
+.footer_wrapper .social_links {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.social_links li {
+    display: inline-block;
+    margin-right: 4px;
+    padding: 0px;
+}
+.contact .social_links li a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+@media (min-width: 1200px){
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+}
+.contact_section h2{
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 0 50px 0;
+}
+.page_section.contact {
+    padding: 60px 0 50px;
+    color: #fff;
+}
+.footer_wrapper {
+    background: #2c3036;
+}
+.footer_bottom {
+    border-top: 1px solid #171717;
+    padding: 25px 0;
+}
+.footer_bottom span {
+    display: block;
+    font-size: 14px;
+    color: #efefef;
+    text-align: center;
+}
+.footer_bottom span a {
+    display: inline-block;
+    color: #b5b5b5;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.footer_bottom span a:hover {
+    color: #fff;
+}
+.form-control{
+    padding: 12px 15px;
+    border-color: #5a5a5a;
+    border-radius: 0;
+    color: #dedede;
+    background: #000;
+    height: auto;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+.btn-primary {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 10px 34px;
+    border-radius: 0;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+#cur2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#hm {
+    margin-left: 20%;
+}
+
+#hw {
+    margin-left: 20%;
+}
